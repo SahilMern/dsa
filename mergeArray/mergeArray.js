@@ -1,16 +1,26 @@
-let numberOfArray1 = [1, 5, 12, 16];
-let numberOfArray2 = [1, 5, 12, 16];
-let numberOfArray3 = [];
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const mergeArry = []
 
-// Copy elements from numberOfArray1 into numberOfArray3
-for (let i = 0; i < numberOfArray1.length; i++) {
-    numberOfArray3[i] = numberOfArray1[i];
+for(let i =0; i<array1.length;i++){
+    mergeArry.push(array1[i])
 }
-
-// Add elements from numberOfArray2 into numberOfArray3 and log them
-for (let i = 0; i < numberOfArray2.length; i++) {
-    numberOfArray3.push(numberOfArray2[i]); // Add elements to the array
-    console.log(numberOfArray3[numberOfArray1.length + i]); // Log the newly added element
+for(let i =0; i<array1.length;i++){
+    mergeArry.push(array2[i])
 }
+// console.log(mergeArry, "mergeArry");
 
-console.log(numberOfArray3); // Final merged array
+//! --------------------------------------------------------------
+
+const array3 = [1, 2, 3];
+const array4 = [4, 5, 6];
+let array5 = []
+
+for(let i=0; i<array3.length; i++){
+    array5[i] = array3[i]
+}
+for(let i=0; i<array4.length; i++){
+    array5[array3.length+i] = array4[i]
+}
+console.log(array5, "array5");
+
