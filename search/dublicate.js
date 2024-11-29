@@ -7,7 +7,6 @@ function findAllOccurrences(arr, target) {
   }
 //   console.log(indices, "indices");
 return indices.length>0 ? indices : "No value found";
-  
 }
 
 const arr = [1, 2, 3, 3, 4, 5, 3];
