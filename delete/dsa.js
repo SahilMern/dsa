@@ -1,8 +1,18 @@
-const numbersArray = [1, 2, 5, 9, 8]; 
-let postion = 3;
+const deleteElement = (array, value) => {
+    let result = [];
 
-for(let i=3; i<numbersArray.length;i++){
-    console.log(numbersArray[i]);
-    numbersArray[i]= numbersArray[i+1]
+    for(let i=0; i<array.length; i++){
+        // console.log(array[i]);
+        if(value!==array[i]){
+            result.push(array[i])
+        }
+    }
+    return result;
 }
 
+
+const array = [11, 22, 44, 33, 55];
+let value = 22;
+
+const data = deleteElement(array, value);
+console.log(data, "data");
