@@ -21,6 +21,7 @@ for(let i=0; i<array3.length; i++){
 }
 for(let i=0; i<array4.length; i++){
     array5[array3.length+i] = array4[i]
+
 }
-console.log(array5, "array5");
+console.log(array5, "array5 d");
 
