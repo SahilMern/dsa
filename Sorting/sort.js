@@ -1,8 +1,14 @@
 function bubbleSort(arr) {
     let n = arr.length;
-    
+    let count = 0;
     // Outer loop to go through the entire array
     for (let i = 0; i < n - 1; i++) {
+        
+        for (let j = 0; j < n - 1 - i; j++) {
+            console.log(arr[j]);
+            
+        }
+
         // Inner loop to compare adjacent elements
         for (let j = 0; j < n - 1 - i; j++) {
             // Compare adjacent elements and swap if they are in wrong order
