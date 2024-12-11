@@ -32,3 +32,8 @@ push(20);  // Stake is full, won't add
 
 pop();     // Removes last element
 pop();     // Removes another element
+pop();     // Removes another element
+pop();     // Removes another element
+pop();     // Removes another element
+pop();     // Removes another element
+
