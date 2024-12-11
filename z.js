@@ -1,13 +1,10 @@
-console.log("Start");
-setImmediate(() => {
-    console.log("Hello User ");
-})
-process.nextTick(() => {
-    console.log("Hello SET IMMME ");
-
-})
-setTimeout(() => {
-    console.log("Set Timeout");
+function findMissingNumber(arr) {
+    let n = arr.length + 1;
+    let total = (n * (n + 1)) / 2;
+    console.log(total);
     
-},0)
-console.log("End");
+    let sum = arr.reduce((acc, num) => acc + num, 0);
+    return total - sum;
+}
+
+console.log(findMissingNumber([1,2,3,9]));
