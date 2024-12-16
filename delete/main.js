@@ -6,8 +6,10 @@ function deleteElement(arr, index) {
     }
     
     // Shift elements to the left starting from the index
-    for (let i = index; i < arr.length - 1; i++) {
-        arr[i] = arr[i + 1];
+    for (let i = index; i < arr.length; i++) {
+        arr[i] = arr[i + 1]; 
+        console.log(arr);
+        
     }
     
     // Decrease the length of the array

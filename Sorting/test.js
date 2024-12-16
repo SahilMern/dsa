@@ -1,4 +1,4 @@
-const data = [1, 15, 1, 55, 88, 1];
+const data = [0,1,15,1,155,88,1,0];
 
 for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data.length; j++) {
