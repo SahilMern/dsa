@@ -1,10 +1,4 @@
-const userObject2 = {
-    fname: "Coders",
-    lname: "Sahil",
-    printFullName: function () {
-      console.log(this);
-    },
-  };
-  
-  console.log(userObject2.printFullName());
-  
+const array = [1, 2, 3]
+const data = array.join("")
+console.log(data, typeof data);
+
