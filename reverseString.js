@@ -5,8 +5,8 @@ const reverseString = (string) => {
     console.log(string, "string");
     for (let index = 0; index < string.length; index++) {
         const element = string[index];
-        console.log(element);
-        revserString=element +1
+        // console.log(element);
+        revserString=element +revserString
     }
 }
 
