@@ -1,12 +1,14 @@
-const array1 = [1,2,3,4]
-const array2 = [5,6,7,8]
+const mergeSortedArrays= (arr1, arr2)=>{
+    console.log(arr1, arr2);
+    let i=0;
+    let j=0;
 
-let array3= []
-for (let index = 0; index < array1.length; index++) {
-  array3.push(array1[index])
+    while(i<arr1.length && j<arr2.length){
+        
+    }
 }
 
-for (let index = 0; index < array2.length; index++) {
-    array3.push(array2[index])
-  }
-console.log(array3);
+
+let arr1 = [11, 3, 5, 7];
+let arr2 = [2, 4, 6, 8];
+let mergedArray = mergeSortedArrays(arr1, arr2);
