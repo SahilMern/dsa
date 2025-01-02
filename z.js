@@ -1,14 +1,12 @@
-const finDublicateInArray = (array) =>{
-    let dublicateElemnt= []
-    console.log(array, "array");
-    for (let index = 0; index < array.length; index++) {
-        if(!dublicateElemnt.includes(array[index])){
-            dublicateElemnt.push(array[index])
-        }else{
-            
-        }
-    }
-console.log(dublicateElemnt, "Final");
+const array1 = [1,2,3,4]
+const array2 = [5,6,7,8]
 
+let array3= []
+for (let index = 0; index < array1.length; index++) {
+  array3.push(array1[index])
 }
-finDublicateInArray([7,9,8,7,9,8,5,3,1,4,1])
+
+for (let index = 0; index < array2.length; index++) {
+    array3.push(array2[index])
+  }
+console.log(array3);
