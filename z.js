@@ -1,40 +1,25 @@
-function mergeSortedArrays(arr1, arr2) {
-    let result = [];  // This will store the merged array
-    let i = 0;        // Pointer for the first array
-    let j = 0;        // Pointer for the second array
+// Write a function to count the frequency of characters in a string.
 
-    // let count =0
-    // Traverse both arrays and insert the smaller element into the result
-    while (i < arr1.length && j < arr2.length) {
-        if (arr1[i] < arr2[j]) {
-            result.push(arr1[i]);
-            i++;
-        } else {
-            result.push(arr2[j]);
-            j++;
-        }
-    }
+const countChar = (string) => {
+  console.log(string, "string");
 
-    console.log(result, "resulut");
+  let obj = {};
+  for (const element of string) {
+    // obj[char] = (obj[char] || 0) + 1;
+    obj[element] = (obj[element] || 0) + 1;
+  }
+  console.log(obj);
+  let maxChar = '';
+
+  const maxCount = Object.keys(obj).filter((element) => {
+    console.log(obj[element], "element");
+    return obj[element]
     
-    // If there are any remaining elements in arr1, push them
-    while (i < arr1.length) {
-        result.push(arr1[i]);
-        i++;
-    }
+  })
 
-    // If there are any remaining elements in arr2, push them
-    while (j < arr2.length) {
-        result.push(arr2[j]);
-        j++;
-    }
+//   for(obj[key]<maxChar){
 
-    return result;
-}
+//   }
 
-// Example usage
-let arr1 = [11, 3, 5, 7];
-let arr2 = [2, 4, 6, 8];
-let mergedArray = mergeSortedArrays(arr1, arr2);
-
-console.log(mergedArray);  // Output: [1, 2, 3, 4, 5, 6, 7, 8]
+};
+countChar("hayabda");

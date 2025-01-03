@@ -1,3 +1,4 @@
+//! Implement an algorithm to find the intersection of two arrays.
 const array1 = [1, 8, 9, 8, 14];
 const array2 = [2, 8];
 
