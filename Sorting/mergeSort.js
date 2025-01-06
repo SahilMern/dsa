@@ -1,7 +1,7 @@
 function mergeSortedArrays(arr1, arr2) {
-    let result = [];  // This will store the merged array
-    let i = 0;        // Pointer for the first array
-    let j = 0;        // Pointer for the second array
+    let result = [];  
+    let i = 0;        
+    let j = 0;        
 
     // let count =0
     // Traverse both arrays and insert the smaller element into the result
