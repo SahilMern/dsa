@@ -16,3 +16,5 @@ let [first, second, third] = array;
 console.log(first); 
 console.log(second);
 console.log(third);
+
+//we get any value by []
