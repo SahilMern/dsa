@@ -37,7 +37,7 @@ class Link {
     this.size = 1;
   }
 
-  append(value) {
+  append(value) { 
     let newNode  = {
       value: value,
       next: null,
