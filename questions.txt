@@ -1,0 +1,92 @@
+1. Arrays
+Reverse an array in place.
+Find the missing number in an array of 1 to n.
+Find the largest and smallest element in an array.
+Find the duplicate in an array of integers.
+Move all zeros to the end while maintaining the order of non-zero elements.
+Find the two numbers in an array that add up to a given sum.
+Implement Array.prototype.map(), reduce(), filter().
+Find the intersection of two arrays.
+Rotate an array by k positions.
+2. Strings
+Check if a string is a palindrome.
+Reverse a string without using built-in methods.
+Count the occurrences of a character in a string.
+Find the longest substring without repeating characters.
+Check if two strings are anagrams.
+Implement string compression (e.g., 'aabcc' → 'a2b1c2').
+Replace all spaces in a string with '%20'.
+Convert a string to a number (parseInt, custom implementation).
+Find the first non-repeated character in a string.
+3. Linked Lists
+Implement a singly linked list with basic operations (insert, delete, search).
+Detect a cycle in a linked list (using Floyd’s cycle-finding algorithm).
+Reverse a linked list iteratively and recursively.
+Find the middle element of a linked list.
+Find the nth node from the end of a linked list.
+Merge two sorted linked lists into one sorted linked list.
+4. Stacks and Queues
+Implement a stack using an array or linked list.
+Implement a queue using two stacks.
+Evaluate a postfix expression using a stack.
+Implement a stack with getMin() to return the minimum element in constant time.
+Check for balanced parentheses in an expression using a stack.
+Implement a circular queue.
+5. Trees
+Implement a binary tree with basic operations (insert, delete, search).
+Preorder, Inorder, and Postorder traversal of a binary tree.
+Check if a binary tree is balanced.
+Find the height/depth of a binary tree.
+Level order traversal of a binary tree.
+Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+Convert a sorted array into a balanced binary search tree (BST).
+6. Graphs
+Implement a graph using an adjacency matrix and list.
+Depth-first search (DFS) traversal of a graph.
+Breadth-first search (BFS) traversal of a graph.
+Detect a cycle in a directed graph using DFS.
+Find the shortest path in an unweighted graph (BFS).
+Find the shortest path in a weighted graph (Dijkstra's algorithm).
+Topological sort of a directed acyclic graph (DAG).
+7. Sorting and Searching
+Implement bubble sort, selection sort, and insertion sort.
+Implement merge sort and quick sort.
+Find the kth smallest/largest element in an unsorted array.
+Binary search on a sorted array.
+Find the peak element in an unsorted array (where an element is greater than its neighbors).
+Search in a rotated sorted array.
+8. Dynamic Programming
+Fibonacci sequence using dynamic programming (bottom-up and top-down).
+Knapsack problem (0/1 knapsack).
+Longest common subsequence.
+Longest increasing subsequence.
+Coin change problem (minimum number of coins for a target value).
+Find the minimum number of steps to reach the end of an array.
+Maximum subarray sum (Kadane’s Algorithm).
+Matrix chain multiplication.
+9. Recursion
+Factorial of a number using recursion.
+Solve the Tower of Hanoi problem.
+Generate all subsets of a set (power set).
+Permutations and combinations of a string or array.
+Solve N-Queens problem (place N queens on an NxN chessboard such that no two queens threaten each other).
+10. Bit Manipulation
+Find the single number that appears once in an array (where all other numbers appear twice).
+Check if a number is a power of two.
+Count the number of 1s in the binary representation of a number (Hamming weight).
+Find the XOR of all numbers in an array.
+Find the rightmost set bit in a number.
+11. Mathematical Algorithms
+Check if a number is prime.
+Find the greatest common divisor (GCD) using Euclid’s algorithm.
+Find the least common multiple (LCM) of two numbers.
+Implement integer division without using the division operator.
+12. Others
+Find the maximum profit from stock prices (buy low, sell high problem).
+Find all pairs in an array that sum up to a given number.
+Find the longest common prefix of an array of strings.
+Find the median of two sorted arrays.
+Advanced Questions
+Trie data structure: Implement a trie with insert, search, and delete methods.
+Segment tree: Implement a segment tree to handle range queries (e.g., sum, min, max).
+Disjoint Set Union (Union-Find): Implement the union-find data structure to solve problems like connected components.
