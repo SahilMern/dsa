@@ -1,18 +1,17 @@
-function findMissingNumber(arr, n) {
-    // Calculate the expected sum of numbers from 1 to n
-    const expectedSum = (n * (n + 1)) / 2;
-    
-    // Calculate the sum of elements in the array
-    const actualSum = arr.reduce((sum, num) => sum + num, 0);
-    
-    // The missing number is the difference between the expected and actual sums
-    return expectedSum - actualSum;
+const findToSum  =(array, target) => {
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length; j++) {
+            // if(array[i] ===array)
+            // console.log(array[i] + array[j] ===target);
+            if(array[i] + array[j] ===target){
+                return [array[i], array[j]]
+            }
+            
+        }        
+    }
 }
 
-// Example usage:
-const arr = [1,2,6,3,7,9]; // Missing number is 5
-const n = 7; // Array is from 1 to 8
+const nums = [2, 7, 11, 15];
+const target = 18;
 
-console.log(findMissingNumber(arr, n)); // Output: 5
-
-
+console.log(findToSum(nums, target));
