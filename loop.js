@@ -18,3 +18,5 @@ function calculateMultiple(number) {
 // Example usage
 let result = calculateMultiple(4);
 console.log(result);  // Output: 16
+
+
