@@ -1,15 +1,3 @@
-// Find the largest number, ,in an array.
-const array = [1,8,9,5,25,55,96]
-// console.log(Math.max(...array));
+// Find the missing number in an array of 1 to N
 
-let largestNumber = array[0]
-for (let i = 0; i < array.length; i++) {
-   if (largestNumber<array[i]) {
-    console.log("hey");
-    largestNumber= array[i]
-   }
-    
-}
-
-console.log(largestNumber, "largestNumber");
-
+const array = [1,3,5,8,7]
