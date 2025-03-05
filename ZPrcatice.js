@@ -1,3 +1,14 @@
-// Find the missing number in an array of 1 to N
+// 07. Factorial Program
 
-const array = [1,3,5,8,7]
+const Factorial = (num)=> {
+  if(num<0){
+    return false
+  }
+
+  if(num===0 || num===1){
+    return 1
+  }
+
+  return num * Factorial(num-1)
+}
+console.log(Factorial(5));

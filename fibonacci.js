@@ -24,7 +24,7 @@
     if (n > 1) console.log(b);  // print 1
   
     // Now generate the rest of the Fibonacci sequence
-    for (let i = 2; i < n; i++) {
+    for (let i = 0; i < n; i++) {
       let temp = a + b;
       console.log(temp);
       a = b;
@@ -32,6 +32,6 @@
     }
   };
   
-  let n = 8;
+  let n = 10;
   fibonacci(n);
   
