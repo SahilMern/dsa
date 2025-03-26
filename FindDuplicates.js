@@ -19,3 +19,15 @@ for (let i = 0; i < array.length; i++) {
 }
 
 console.log(duplicateElements, "duplicateElements");
+
+// --------------------------------------------------
+
+// const array = [44, 55, 66, 66, 88, 88, 200];
+
+// Convert to a Set to remove duplicates
+const data = new Set([...array]);
+
+// Convert Set back to an array
+const uniqueArray = Array.from(data);
+
+console.log(uniqueArray, "Unique Array");
