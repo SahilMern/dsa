@@ -11,3 +11,6 @@ for (let i = 0; i < array.length; i++) {
 }
 
 console.log(maxValue, "Final Maximum value in array");
+
+
+//!Note:- Same logic for find min value also
