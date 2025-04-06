@@ -1,25 +1,19 @@
-function selectionSort(array) {
-    let minid;
-    for (let i = 0; i < array.length; i++) {
-        minid=i;
-        console.log(minid);
-        
-        for (let j = i+1; j < array.length; j++) {
-            console.log(array[minid], "j");
-            
-            if (array[j] < array[minid]) {
-                minid = j; 
-            }
-        }
-        if (minid !== i) {
-            let temp = array[i];
-            array[i] = array[minid];
-            array[minid] = temp;
+const array = [80, 32, 54, 100, 644, 944];
+
+for (let i = 0; i < array.length - 1; i++) {  // We don’t need to check the last element
+    let minIndex = i;  // Assume the current index has the smallest value
+
+    // Find the index of the minimum value in the unsorted part of the array
+    for (let j = i + 1; j < array.length; j++) {
+        if (array[j] < array[minIndex]) {
+            minIndex = j;  // Update minIndex if a smaller value is found
         }
     }
-    return array;
+
+    // Swap only if minIndex is different from i to avoid unnecessary swapping
+    if (minIndex !== i) {
+        [array[i], array[minIndex]] = [array[minIndex], array[i]];  // Destructuring swap
+    }
 }
 
-const array = [64, 25, 12, 22, 11];
-
-console.log("Sorted Array:", selectionSort(array)); 
+console.log(array);

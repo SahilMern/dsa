@@ -1,18 +1,19 @@
-function bubbleSort(arr) {
-  let n = arr.length;
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n ; j++) {
-      console.log(j);
-      
-      if (arr[j] > arr[j + 1]) {
-        let temp = arr[j];
-        arr[j] = arr[j + 1];
-        arr[j + 1] = temp;
-      }
+const array = [80, 32, 54, 100, 644, 944];
+
+for (let i = 0; i < array.length - 1; i++) {  // We don’t need to check the last element
+    let minIndex = i;  // Assume the current index has the smallest value
+
+    // Find the index of the minimum value in the unsorted part of the array
+    for (let j = i + 1; j < array.length; j++) {
+        if (array[j] < array[minIndex]) {
+            minIndex = j;  // Update minIndex if a smaller value is found
+        }
     }
-  }
-  return arr;
+
+    // Swap only if minIndex is different from i to avoid unnecessary swapping
+    if (minIndex !== i) {
+        [array[i], array[minIndex]] = [array[minIndex], array[i]];  // Destructuring swap
+    }
 }
 
-const data = [1, 15, 1, 55, 88];
-console.log("Sorted Array:", bubbleSort(data)); // Output: [1, 1, 15, 55, 88]
+console.log(array);
