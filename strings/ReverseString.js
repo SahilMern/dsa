@@ -1,5 +1,4 @@
 // Reverse a string
-
 let revserString = ""
 const reverseString = (string) => {
     console.log(string, "string");
@@ -9,9 +8,6 @@ const reverseString = (string) => {
         revserString=element +revserString
     }
 }
-
-
-
 const string= "sahilyadav";
 reverseString(string)
 console.log(revserString, "revserString");

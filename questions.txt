@@ -1,8 +1,9 @@
 1. Arrays
 Reverse an array in place.
-Find the missing number in an array of 1 to n.
 Find the largest and smallest element in an array.
 Find the duplicate in an array of integers.
+
+Find the missing number in an array of 1 to n.
 Move all zeros to the end while maintaining the order of non-zero elements.
 Find the two numbers in an array that add up to a given sum.
 Implement Array.prototype.map(), reduce(), filter().
