@@ -40,17 +40,17 @@ function clear() {
 }
 
 // Function calls to demonstrate the stack operations
-push(10);  // Push 10
-push(20);  // Push 20
-push(30);  // Push 30
+push(10); // Push 10
+push(20); // Push 20
+push(30); // Push 30
 
-console.log("Peek: ", peek());  // Peek at the top element (Expected: 30)
-console.log("Size: ", size());  // Get the size of the stack (Expected: 3)
+console.log("Peek: ", peek()); // Peek at the top element (Expected: 30)
+console.log("Size: ", size()); // Get the size of the stack (Expected: 3)
 
-console.log("Pop: ", pop());    // Pop the top element (Expected: 30)
-console.log("Peek after pop: ", peek());  // Peek at the new top element (Expected: 20)
+console.log("Pop: ", pop()); // Pop the top element (Expected: 30)
+console.log("Peek after pop: ", peek()); // Peek at the new top element (Expected: 20)
 
-console.log("Is stack empty? ", isEmpty());  // Check if the stack is empty (Expected: false)
+console.log("Is stack empty? ", isEmpty()); // Check if the stack is empty (Expected: false)
 
-clear();  // Clear the stack
-console.log("Is stack empty after clear? ", isEmpty());  // Check if the stack is empty after clearing (Expected: true)
+clear(); // Clear the stack
+console.log("Is stack empty after clear? ", isEmpty()); // Check if the stack is empty after clearing (Expected: true)

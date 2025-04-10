@@ -31,24 +31,23 @@
         }
 
         traversing() {
-            let counter = 0;
-            let currentNode = this.head;
+          let counter = 0;
+          let currentNode = this.head;
 
-            while (counter < this.size) {
-                console.log(currentNode.value);  // Log only the value of the node
-                currentNode = currentNode.next;
-                counter++;
-            }
+          while (counter < this.size) {
+            console.log(currentNode.value); // Log only the value of the node
+            currentNode = currentNode.next;
+            counter++;
+          }
         }
 
-        insertNode(index, value){
-            let counter =0
-            let currentNode = this.head;
-            while(counter>index){
-                counter++
-                console.log(counter, "counter");
-                
-            }
+        insertNode(index, value) {
+          let counter = 0;
+          let currentNode = this.head;
+          while (counter > index) {
+            counter++;
+            console.log(counter, "counter");
+          }
         }
       }
 
@@ -61,7 +60,7 @@
       list.appendNode(40);
       list.appendNode(50);
 
-      list.insertNode(2, 50000)
+      list.insertNode(2, 50000);
       // Print the list to the console
       console.log(list);
       console.log("List size:", list.size);

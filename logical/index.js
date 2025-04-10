@@ -1,5 +1,4 @@
-// a=20;
-// console.log(a);
+// s
 
 // let a =20;
 // let b= 30
