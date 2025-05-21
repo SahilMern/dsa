@@ -1,20 +1,15 @@
-let array = ["a", "i", "e", "o", "u"];
-let string = "sahilyadav";
+function countVowels(str) {
+  const vowels = "aeiouAEIOU";
+  let count = 0;
 
-let vowelsCount = 0;
-let vowlesWordList = [];
-
-for (let i = 0; i < string.length; i++) {
-  if (array.includes(string[i])) {
-    // console.log("truee");
-    vowlesWordList.push(string[i]);
-    vowelsCount++;
-  } else {
-    console.log("not");
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      count++;
+    }
   }
+
+  return count;
 }
-console.log(vowelsCount, vowlesWordList);
 
-
-// Write a function to flatten a nested array.
-// Implement a debounce function.
+// Example usage:
+console.log(countVowels("Hello World")); // Output: 3
